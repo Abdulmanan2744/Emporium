@@ -1,0 +1,6 @@
+C:\Emporium\Emporium\Emporium.Entities\bin\Debug\Emporium.Entities.dll
+C:\Emporium\Emporium\Emporium.Entities\bin\Debug\Emporium.Entities.pdb
+C:\Emporium\Emporium\Emporium.Entities\obj\Debug\Emporium.Entities.csproj.AssemblyReference.cache
+C:\Emporium\Emporium\Emporium.Entities\obj\Debug\Emporium.Entities.csproj.CoreCompileInputs.cache
+C:\Emporium\Emporium\Emporium.Entities\obj\Debug\Emporium.Entities.dll
+C:\Emporium\Emporium\Emporium.Entities\obj\Debug\Emporium.Entities.pdb

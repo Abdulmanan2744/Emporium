@@ -1,0 +1,15 @@
+﻿@model Emporium.Entities.Category
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delet Category</h2>
+<h1>Are you sure you want to delete category?</h1>
+<form method="post">
+    <input name="ID" type="hidden" value="@(Model?.ID)" />
+    <input  value="@(Model?.Name)" />
+    <br />
+    <input value="@(Model.Description)" />
+    <br />
+    <button type="submit">Delete</button> <a href="~/Views/Category/Index.cshtml" >Cancel</a>
+</form>

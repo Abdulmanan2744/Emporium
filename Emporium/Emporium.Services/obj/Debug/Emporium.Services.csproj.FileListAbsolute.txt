@@ -1,0 +1,17 @@
+C:\Emporium\Emporium\Emporium.Services\bin\Debug\Emporium.Services.dll.config
+C:\Emporium\Emporium\Emporium.Services\bin\Debug\Emporium.Services.dll
+C:\Emporium\Emporium\Emporium.Services\bin\Debug\Emporium.Services.pdb
+C:\Emporium\Emporium\Emporium.Services\bin\Debug\Emporium.Database.dll
+C:\Emporium\Emporium\Emporium.Services\bin\Debug\Emporium.Entities.dll
+C:\Emporium\Emporium\Emporium.Services\bin\Debug\EntityFramework.dll
+C:\Emporium\Emporium\Emporium.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Emporium\Emporium\Emporium.Services\bin\Debug\Emporium.Database.pdb
+C:\Emporium\Emporium\Emporium.Services\bin\Debug\Emporium.Database.dll.config
+C:\Emporium\Emporium\Emporium.Services\bin\Debug\Emporium.Entities.pdb
+C:\Emporium\Emporium\Emporium.Services\bin\Debug\EntityFramework.xml
+C:\Emporium\Emporium\Emporium.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Emporium\Emporium\Emporium.Services\obj\Debug\Emporium.Services.csproj.AssemblyReference.cache
+C:\Emporium\Emporium\Emporium.Services\obj\Debug\Emporium.Services.csproj.CoreCompileInputs.cache
+C:\Emporium\Emporium\Emporium.Services\obj\Debug\Emporium.Services.csproj.CopyComplete
+C:\Emporium\Emporium\Emporium.Services\obj\Debug\Emporium.Services.dll
+C:\Emporium\Emporium\Emporium.Services\obj\Debug\Emporium.Services.pdb

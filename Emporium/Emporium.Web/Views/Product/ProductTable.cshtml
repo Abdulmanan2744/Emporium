@@ -1,0 +1,61 @@
+﻿@model List<Product>
+@{
+    ViewBag.Title = "ProductTable";
+}
+
+<div>
+    <form method="post" @*action="/Product/ProductTable"*@>
+        <input type="search" id="searchTxt" name="Search" placeholder="search desired products" />
+        <button type="button" id="searchBtn">Search</button>
+        <button type="button" id="newBtn">New</button>
+
+    </form>
+</div>
+
+<div id="tablecontainer">
+    <table>
+        <thead>
+            <tr>
+                <td>Product Name</td>
+                <td>Category</td>
+                <td>Price</td>
+                <td>Action</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.Name</td>
+                    <td>-</td>
+                    <td>@product.Price</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+
+<script>
+    $(document).ready(function () {
+        $("#searchBtn").click(function () {
+            var searchValue = $("#searchTxt").val();
+            $.ajax({
+                type: 'POST', // Specify the request type as POST
+                url: '/Product/ProductTable',
+                data: { search: searchValue },
+                success: function (response) {
+                    $("#tablecontainer").html(response); // Corrected syntax
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    alert("fail");
+                }
+            });
+        });
+    });
+</script>
